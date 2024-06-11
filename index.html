@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		
+		body{
+			font-family: arial;
+			padding: 10px;
+			background: #f1f1f1;
+		}
+
+		/*Header / Blog Title */
+		.header{
+			padding: 30px;
+			text-align: center;
+			background: white;
+		}
+
+		.header h1{
+			font-size: 50px;
+		}
+
+		/* Style the navigation bar */
+		.navbar{
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		/* Style yhe navbar links */
+		.navbar a{
+			float: right;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change color on hover */
+		.navbar a:hover{
+			background-color: #ddd;
+			color: black;
+		}
+
+		/* Create two unequal colums that floats next to each other */
+		/*Left column */
+		.leftcolum{
+			float: left;
+			width: 75%;
+		}
+
+		/*Right column*/
+		.rightcolumn{
+			float: left;
+			width: 25%;
+			background-color: #f1f1f1;
+			padding-left: 20px;
+		}
+
+		/* Fake image */
+		.fakeimg{
+			background-color: #aaa;
+			width: 100%;
+			padding: 20px;
+		}
+
+		/* Add a card effect for article */
+		.card{
+			background-color: white;
+			padding: 20px;
+			margin-top: 20px;
+		}
+
+		/*  Clear floats after the columns */
+		.row::after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* Footer */
+		.footer{
+			padding: 20px;
+			text-align: center;
+			background: #ddd;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1> My Website <br>sayur mayur</h1>
+	</div>
+
+	<div class="navbar">
+		<a href="#" style="float: left;">Link</a>
+		<a href="kontak">KONTAK</a>
+		<a href="HARGA.html">HARGA</a>
+		<a href="index.html">HOME</a>
+	</div>
+
+	<div class="row">
+		<div class="leftcolum">
+			<div class="card">
+				<h2>JUDUL</h2>
+				<h5> DESKRIPSI</h5>
+				<img src="BUAH.jpeg" style="height: 300px;">
+				<p>Temukan produk segar dan organik penuh nutrisi untuk penuhi kebutuhan harian. Belanja Sayur dan Buah Segar dengan gratis ongkir sekarang.</p>
+				<p>Inilah 8 Manfaat Buah dan Sayur</p>
+1.Meningkatkan daya ingat.<br>
+2.Membantu tubuh menjadi lebih sehat.<br>
+3.Memperlancar buang air besar.<br>
+4.Membuat perasaan lebih bahagia.<br>
+5.Meningkatkan daya tahan tubuh.<br>
+6.Menjaga kesehatan tulang dan gigi.<br>
+7.Menurunkan kolesterol dan melancarkan pencernaan.
+<br>
+<p> untuk memelihara fungsi tubuh secara sehat. Sayuran yang dikonsumsi dengan cukup dapat membantu melindungi tubuh dari segala penyakit.</p><br>
+<h1>Makan SAYUR & BUAH Setiap Hari Sangat Penting, Karena </h1>
+<p>Mengandung vitamin dan mineral, yang mengatur pertumbuhan dan pemeliharaan tubuh. Mengandung serat yang tinggi.</p>
+<p>Salah satu alasan penting untuk membeli sayuran segar adalah agar nilai gizi yang terkandung di dalamnya tetap terjaga dengan baik, sebab nutrisi sayuran segar biasanya mulai berkurang saat dipanen. Oleh karena itu, penting sekali untuk memahami cara memilih sayuran yang segar dengan baik.</p>
+<h3>BELI SAYURAN SEGAR DI MARKET PLEACE KAMI</h3>
+
+			</div>
+		</div>
+		<div class="rightcolumn">
+			<div class="card">
+				<h2>kontak</h2>
+				<img src="login.png" style="height: 200px;">
+				<p>Silahkan jika anda berminat hubungi kontak admin yang ada di bawah ini </p><br>
+				<p>083******</p>
+			</div>
+			<div class="card">
+				<img src="tomato.jpeg" style="height: 300px;"><br>
+				<img src="buah manis.jpeg" style="height: 300px;"><br>
+				<img src="images.jpeg" style="height: 300px;"><br>
+				
+			</div>
+			<div class="card">
+				<h3>Follow Me</h3>
+				<p>ig:sitifadilah036</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h2>Footer</h2>
+	</div>
+</body>
+</html>
